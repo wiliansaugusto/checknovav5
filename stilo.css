@@ -1,0 +1,173 @@
+.condutor {
+  background-color: #f55757;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.condutor:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+
+  .meio {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+  .jumbotron {
+    background-color: white;;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    
+  }
+  .azul {
+
+    background-image: url("assets/img/mochilaAzul.jpeg");
+    background-color: #f55757;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+  
+  .azul:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+    .verde {
+
+        background-image: url("assets/img/mochilaVerde.jpeg");
+        background-color: #f55757;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        position: relative;
+        opacity: 0.7;
+        filter: alpha(opacity=70); /* For IE8 and earlier */
+      }
+      
+      .verde:hover {
+          opacity: 1.0;
+          filter: alpha(opacity=100); /* For IE8 and earlier */
+        }
+  .vermelha {
+
+    background-image: url("assets/img/mochilaVermelha.jpeg");
+    background-color: #f55757;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+  
+  .vermelha:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+  .psico {
+
+    background-image: url("assets/img/bolsaPsico.jpeg");
+    background-color: #f55757;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+  
+  .psico:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+  
+  
+    
+
+
+  .rosa {
+    background-image: url("assets/img/mochilaRosa.jpeg");
+    background-color: #f55757;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+  
+  .rosa:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+  .avancada {
+    background-image: url("assets/img/sub17.jpg");
+    background-color: #f55757;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+  
+  .avancada:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+  .basica {
+    background-image: url("assets/img/essa-sim-1.png");
+    background-color: #f55757;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+  
+  .basica:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+    .fimPlantao {
+
+        background-image: url("assets/img/finalPlantao.png");
+        background-color: #f55757;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        position: relative;
+        opacity: 0.7;
+        filter: alpha(opacity=70); /* For IE8 and earlier */
+      }
+      
+      .fimPlantao:hover {
+          opacity: 1.0;
+          filter: alpha(opacity=100); /* For IE8 and earlier */
+        }
+
+        .rodape{
+            width: 50px;
+            height: 50px;
+        }
+      .e{
+        color: black;
+      }  

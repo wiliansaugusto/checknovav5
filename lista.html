@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova - CheckList</title>
+<!--
+        <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+-->
+
+    <!-- Meta tags Obrigatórias -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script>
+//Realiza a função de voltar para a pagina inicial
+    function fechar(){
+        location.href="http://starhealth.com.br/checknova";
+        
+    }
+</script>
+</head>
+<body>
+
+    <h1 class="text-center">Realizar Reposição</h1>
+    <h4 class="text-center">O seu numero de reposição é: <?= $nOrden ?></h4><br>
+     <ul class="list-group">
+     <!-- Foreach php para exibir os itens faltantes já passado pelo dicionario-->
+            <?php if($faltantes == NULL):
+                echo("<li class='list-group-item'> SEM MATERIAS A REPOR!!!</li>");
+                
+            endif; ?>
+            
+            <?php foreach ($faltantes as $key => $value): ?>
+            
+               <li class="list-group-item">
+               <input type="checkbox" class="form-check-input" id="<?=$key ?>">
+               <label class="form-check-label" for="<?=$key ?>"><?=$value?></label>
+               </li>
+            <?php  endforeach;    ?>
+            <?php if($faltantes == NULL):
+                
+            endif; ?>
+            <br>
+            <?php foreach ($excesso as $key => $value): ?>
+            
+               <li class="list-group-item">
+               <input type="checkbox" class="form-check-input" id="<?=$key ?>">
+               <label class="form-check-label" for="<?=$key ?>"><?=$value?></label>
+               </li>
+            <?php  endforeach;    ?>
+        
+    </ul>
+    <br><br>
+
+    
+    <button onclick="fechar();" type="button" class="btn btn-success btn-lg btn-block">Fechar</button>
+  <br>
+  <br>
+  <br>
+
+    
+
+  <br>
+  <br>
+  <br>
+
+</body>
+</html> 

@@ -1,0 +1,553 @@
+[13-Feb-2020 18:51:18 America/Sao_Paulo] PHP Notice:  Undefined index: nm_usuario in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/navegacao.php on line 17
+[13-Feb-2020 18:51:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/conexao.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/conexao.php on line 48
+[13-Feb-2020 18:55:03 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/conexao.php on line 58
+[13-Feb-2020 18:56:52 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 18:56:52 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 18:56:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 18:57:28 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/entrada_estoque.class.php on line 72
+[13-Feb-2020 18:57:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/entrada_estoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/entradaestoque.php(5): entrada_estoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/entrada_estoque.class.php on line 27
+[13-Feb-2020 18:57:32 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 86
+[13-Feb-2020 18:57:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:26
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 26
+[13-Feb-2020 18:57:34 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 86
+[13-Feb-2020 18:57:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:26
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 26
+[13-Feb-2020 18:57:39 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/relatorio.class.php on line 424
+[13-Feb-2020 18:57:39 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/relatorio.class.php on line 427
+[13-Feb-2020 18:57:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/relatorio.class.php:185
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/relatorios.php(33): relatorio->maior()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/relatorio.class.php on line 185
+[13-Feb-2020 18:57:48 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 81
+[13-Feb-2020 18:57:48 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 84
+[13-Feb-2020 18:57:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php:20
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/pesquisarusuario.php(5): usuario->pesquisarTodos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 20
+[13-Feb-2020 19:06:13 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:06:13 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:06:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:06:59 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:06:59 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:06:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:09 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:08:09 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:12 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:08:12 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:15 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:08:15 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:18 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:08:18 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:08:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:09:21 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:09:21 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:09:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:09:29 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:09:29 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:09:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:10:53 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:10:53 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:10:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:12:12 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 51
+[13-Feb-2020 19:12:12 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:12:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:57
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 57
+[13-Feb-2020 19:12:53 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 19:12:53 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 19:12:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 19:13:17 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 19:13:17 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 19:13:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 19:14:49 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 19:14:49 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 19:14:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:17:22 America/Sao_Paulo] PHP Notice:  Undefined index: nm_usuario in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/navegacao.php on line 17
+[13-Feb-2020 21:17:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/conexao.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/conexao.php on line 48
+[13-Feb-2020 21:17:46 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 81
+[13-Feb-2020 21:17:46 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 84
+[13-Feb-2020 21:17:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php:20
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/pesquisarusuario.php(5): usuario->pesquisarTodos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 20
+[13-Feb-2020 21:22:42 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 81
+[13-Feb-2020 21:22:42 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 84
+[13-Feb-2020 21:22:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php:20
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/pesquisarusuario.php(5): usuario->pesquisarTodos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 20
+[13-Feb-2020 21:22:49 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 81
+[13-Feb-2020 21:22:49 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 84
+[13-Feb-2020 21:22:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php:20
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/pesquisarusuario.php(5): usuario->pesquisarTodos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 20
+[13-Feb-2020 21:46:26 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 21:46:26 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:46:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:47:09 America/Sao_Paulo] PHP Warning:  include_once(classes/produto.class.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:47:09 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'classes/produto.class.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:47:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'produto' not found in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 6
+[13-Feb-2020 21:47:58 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 52
+[13-Feb-2020 21:47:58 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:47:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:49:06 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 52
+[13-Feb-2020 21:49:06 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:49:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:49:16 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 52
+[13-Feb-2020 21:49:16 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:49:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:50:08 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 52
+[13-Feb-2020 21:50:08 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:50:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:51:04 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 52
+[13-Feb-2020 21:51:04 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:51:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:51:29 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 52
+[13-Feb-2020 21:51:29 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:51:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:51:34 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 52
+[13-Feb-2020 21:51:34 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:51:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.php on line 58
+[13-Feb-2020 21:52:50 America/Sao_Paulo] PHP Warning:  require(classes/produto.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:52:50 America/Sao_Paulo] PHP Warning:  require(classes/produto.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:52:50 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'classes/produto.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:54:13 America/Sao_Paulo] PHP Warning:  include(../classes/produto.classes.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:54:13 America/Sao_Paulo] PHP Warning:  include(../classes/produto.classes.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:54:13 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../classes/produto.classes.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:54:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'produto' not found in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 6
+[13-Feb-2020 21:54:46 America/Sao_Paulo] PHP Warning:  include(classes/produto.classes.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:54:46 America/Sao_Paulo] PHP Warning:  include(classes/produto.classes.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:54:46 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'classes/produto.classes.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 21:54:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'produto' not found in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 6
+[13-Feb-2020 21:55:15 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 21:55:15 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:55:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:56:40 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 21:56:40 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:56:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:58:15 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 21:58:15 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:58:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:58:58 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 21:58:58 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 21:58:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:00:36 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 22:00:36 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:00:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:01:18 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 22:01:18 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:01:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:03:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/conexao.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/conexao.php on line 48
+[13-Feb-2020 22:03:10 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 22:03:10 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:03:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:04:44 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 22:04:44 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:04:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:05:41 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 22:05:41 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:05:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:05:49 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 22:05:49 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:05:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:06:30 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 52
+[13-Feb-2020 22:06:30 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:06:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php:58
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php(12): produto->salvar(Object(produto))
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/produto.class.php on line 58
+[13-Feb-2020 22:06:51 America/Sao_Paulo] PHP Warning:  include(../classes/produto.class.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:06:51 America/Sao_Paulo] PHP Warning:  include(../classes/produto.class.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:06:51 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../classes/produto.class.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:06:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'produto' not found in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 6
+[13-Feb-2020 22:07:56 America/Sao_Paulo] PHP Warning:  include(../classes/produto.class.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:07:56 America/Sao_Paulo] PHP Warning:  include(../classes/produto.class.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:07:56 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../classes/produto.class.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:08:00 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/entrada_estoque.class.php on line 72
+[13-Feb-2020 22:08:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/entrada_estoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/entradaestoque.php(5): entrada_estoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/entrada_estoque.class.php on line 27
+[13-Feb-2020 22:08:09 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 81
+[13-Feb-2020 22:08:09 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 84
+[13-Feb-2020 22:08:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php:20
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/pesquisarusuario.php(5): usuario->pesquisarTodos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/usuario.class.php on line 20
+[13-Feb-2020 22:08:14 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 86
+[13-Feb-2020 22:08:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:26
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 26
+[13-Feb-2020 22:09:14 America/Sao_Paulo] PHP Warning:  include(../classes/produto.class.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:09:14 America/Sao_Paulo] PHP Warning:  include(../classes/produto.class.php): failed to open stream: No such file or directory in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:09:14 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../classes/produto.class.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/novoproduto.php on line 2
+[13-Feb-2020 22:09:20 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 86
+[13-Feb-2020 22:09:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:26
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 26
+[13-Feb-2020 22:11:33 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 105
+[13-Feb-2020 22:11:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:26
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 26
+[13-Feb-2020 22:13:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function conectar() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:22
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 22
+[13-Feb-2020 22:14:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function conectar() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:22
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 22
+[13-Feb-2020 22:14:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function conectar() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:22
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 22
+[13-Feb-2020 22:14:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function conectar() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:22
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 22
+[13-Feb-2020 22:14:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function conectar() in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:22
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 22
+[13-Feb-2020 22:15:05 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 85
+[13-Feb-2020 22:15:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:26
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 26
+[13-Feb-2020 22:15:51 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 88
+[13-Feb-2020 22:15:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:26
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 26
+[13-Feb-2020 22:16:58 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:16:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:17:54 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:17:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:18:57 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:18:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:19:01 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:19:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:19:38 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:19:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:19:41 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:19:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:20:44 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:20:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:20:46 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:20:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:20:47 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:20:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:21:31 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:21:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:21:46 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:21:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:24:22 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 89
+[13-Feb-2020 22:24:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:25:29 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:25:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:26:23 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:26:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:26:25 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:26:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:27:18 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:27:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:27:19 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:27:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:27:44 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:27:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:27:46 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:27:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:30:18 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:30:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:31:30 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:31:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:34:57 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:34:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:34:59 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:34:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:35:00 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:35:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 27
+[13-Feb-2020 22:35:01 America/Sao_Paulo] PHP Notice:  Undefined variable: con in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 90
+[13-Feb-2020 22:35:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php:27
+Stack trace:
+#0 /home/u142585150/domains/starhealth.com.br/public_html/almoxarifado/saidaestoque.php(5): saidaestoque->mostrarProdutos()
+#1 {main}
+  thrown in /home/u142585150/domains/starhealth.com.br/public_html/classes/saidaestoque.class.php on line 27
